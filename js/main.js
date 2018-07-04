@@ -1,7 +1,9 @@
-var heading = document.getElementById( 'h1' );
+var theButton = document.getElementById( 'submit' )
 
-heading.addEventListener( "click", function() {
-    var myElement = document.createElement( 'article' )
-    myElement.innerHTML = '<p>This is click number x(++click)</p>';
-    document.getElementsByClassName( 'container' )[0].appendChild( myElement)
+theButton.addEventListener('click', function( eventInfo ) {
+  eventInfo.preventDefault();
+  console.log( "The firstName is:" );
+  console.log( "The lastName is:" );
+  console.log( "The email is:" );
+  console.log( "The message is:" );
 });

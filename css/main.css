@@ -1,0 +1,35 @@
+body{
+  background-color: #45B9D3;
+  padding: 25px;
+}
+
+.container {
+  padding: 25px;
+  width: 500px;
+  background-color: white;
+  margin: auto;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+}
+.form{
+  padding: 5px;
+}
+
+.input{
+  width: 98%;
+  margin-bottom: 15px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.submit{
+  padding: 5px;
+}
+
+.submit:hover{
+  background-color: black;
+  color: white;
+}
